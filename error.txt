@@ -1,2 +1,3 @@
 replace profile picture with personal pictures
 replace resume with my own cv
+fix experience section - react is not in the same grid 
