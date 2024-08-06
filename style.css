@@ -1,51 +1,35 @@
-/*General styling*/
+/* GENERAL */
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
-.poppins-light {
-    font-family: "Poppins", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-}
-  
-  .poppins-medium {
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-}
-  
-  .poppins-semibold {
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    font-style: normal;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-  
-*{
-    margin: 0;
-    padding: 0;
+body {
+  font-family: "Poppins", sans-serif;
 }
 
-body{
-    font-family: 'Poppins',sans-serif;
-}
-
-html{
+html {
   scroll-behavior: smooth;
 }
 
-p{
-  color: rgb(85,85,85);
+p {
+  color: rgb(85, 85, 85);
 }
 
-/*Transition*/
-a, .btn {
+/* TRANSITION */
+
+a,
+.btn {
   transition: all 300ms ease;
 }
 
-/*Desktop Nav*/
+/* DESKTOP NAV */
 
-nav, .nav-links {
+nav,
+.nav-links {
   display: flex;
 }
 
@@ -55,37 +39,37 @@ nav {
   height: 17vh;
 }
 
-.nav-links{
+.nav-links {
   gap: 2rem;
   list-style: none;
-  font-size: 1.5rem;  
+  font-size: 1.5rem;
 }
 
-a{
+a {
   color: black;
   text-decoration: none;
   text-decoration-color: white;
 }
 
-a:hover{
+a:hover {
   color: grey;
   text-decoration: underline;
-  text-underline-offset: 3rem;
-  text-decoration-color: rgb(181,181,181);
+  text-underline-offset: 1rem;
+  text-decoration-color: rgb(181, 181, 181);
 }
 
-.logo{
+.logo {
   font-size: 2rem;
 }
 
-.logo:hover{
+.logo:hover {
   cursor: default;
 }
 
-/*Hamburger Menu*/
+/* HAMBURGER MENU */
 
 #hamburger-nav {
-  display : none;
+  display: none;
 }
 
 .hamburger-menu {
@@ -94,7 +78,7 @@ a:hover{
 }
 
 .hamburger-icon {
-  display : flex;
+  display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 24px;
@@ -102,7 +86,7 @@ a:hover{
   cursor: pointer;
 }
 
-.hamburger-icon span{
+.hamburger-icon span {
   width: 100%;
   height: 2px;
   background-color: black;
@@ -139,7 +123,7 @@ a:hover{
 }
 
 .hamburger-icon.open span:first-child {
-  transform: rotate(45deg)  translate(10px,5px);
+  transform: rotate(45deg) translate(10px, 5px);
 }
 
 .hamburger-icon.open span:nth-child(2) {
@@ -147,7 +131,7 @@ a:hover{
 }
 
 .hamburger-icon.open span:last-child {
-  transform: rotate(-45deg)  translate(10px,-5px);
+  transform: rotate(-45deg) translate(10px, -5px);
 }
 
 .hamburger-icon span:first-child {
@@ -276,13 +260,14 @@ section {
 .btn-container {
   gap: 1rem;
 }
-/* About Section */
+
+/* ABOUT SECTION */
 
 #about {
   position: relative;
 }
 
-.about-container {
+.about-containers {
   gap: 2rem;
   margin-bottom: 2rem;
   margin-top: 2rem;
@@ -293,7 +278,7 @@ section {
   flex-direction: column;
 }
 
-.about-containers, 
+.about-containers,
 .about-details-container {
   display: flex;
 }
@@ -305,16 +290,16 @@ section {
 .arrow {
   position: absolute;
   right: -5rem;
-  bottom: -2.5rem;
+  bottom: 2.5rem;
 }
 
-.details-container{
+.details-container {
   padding: 1.5rem;
   flex: 1;
   background: white;
   border-radius: 2rem;
-  border: rgb(53,53,53) 0.1rem solid;
-  border-color: rgb(163,163,163);
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
   text-align: center;
 }
 
@@ -328,3 +313,43 @@ section {
   width: 400px;
   margin: auto 0;
 }
+
+/* EXPERIENCE SECTION */
+
+#experience {
+  position: relative;
+}
+
+.experience-sub-title {
+  color: rgb(85, 85, 85);
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-bottom: 2rem;
+}
+
+.experience-details-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.article-container {
+  display: flex;
+  text-align: initial;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 2.5rem;
+  justify-content: space-around;
+}
+
+article {
+  display: flex;
+  width: 10rem;
+  justify-content: space-around;
+  gap: 0.5rem;
+}
+
+article .icon {
+  cursor: default;
+}
+
