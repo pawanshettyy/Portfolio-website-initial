@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Welcome</title>
+  <title>Welcome | Pawan Shetty's portfolio</title>
   <!--Page Linking-->
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="mediaqueries.css" />
@@ -12,6 +12,7 @@
 </head>
 
 <body>
+  <!--Navbar for desktop-->
   <nav id="desktop-nav">
     <div class="logo">Pawan Shetty</div>
     <div>
@@ -23,6 +24,7 @@
       </ul>
     </div>
   </nav>
+  <!--Navbar for small devices-->
   <nav id="hamburger-nav">
     <div class="logo">Pawan Shetty</div>
     <div class="hamburger-menu">
@@ -39,6 +41,7 @@
       </div>
     </div>
   </nav>
+  <!--Profile Section-->
   <section id="profile">
     <div class="section__pic-container">
       <img src="./assests/profile-pic.png" alt="placeholder profile picture" />
@@ -63,6 +66,7 @@
       </div>
     </div>
   </section>
+  <!--About Section-->
   <section id="about">
     <p class="section__text__p1">Get To Know More</p>
     <h1 class="title">About Me</h1>
@@ -94,6 +98,7 @@
     </div>
     <img src="./assests/arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
   </section>
+  <!--Experience Section-->
   <section id="experience">
     <p class="section__text__p1">Explore My</p>
     <h1 class="title">Experience</h1>
@@ -183,7 +188,60 @@
     </div>
     <img src="./assests/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
   </section>
+  <!--Portfolio Project section-->
+  <section id="projects">
+    <p class="section__text__p1">Browse My Recent</p>
+    <h1 class="title">Projects</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assests/project-1.png" alt="Project 1" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Project One</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+              Github
+            </button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+              Live Demo
+            </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assests/project-2.png" alt="Project 2" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Project Two</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+              Github
+            </button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+              Live Demo
+            </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assests/project-3.png" alt="Project 3" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Project Three</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+              Github
+            </button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+              Live Demo
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="./assests/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
+  </section>
+  <!--contacts section-->
+  <!--Javascript linking-->
   <script src="script.js"></script>
 </body>
-
 </html>

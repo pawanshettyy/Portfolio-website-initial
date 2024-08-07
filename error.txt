@@ -1,2 +1,5 @@
 replace profile picture with personal pictures
 replace resume with my own cv
+replace project links with projects i made 
+replace name of project with the projects i made 
+remove extra items using comments
