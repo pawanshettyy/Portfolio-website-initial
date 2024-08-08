@@ -7,3 +7,5 @@ remove extra items using comments
 =======
 fix experience section - react is not in the same grid 
 >>>>>>> ef87b1457b9ba60dfdccde5778abd40aee01ea03
+update contact links
+deploy after updating all the links and profile picture 
