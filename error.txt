@@ -1,9 +1,5 @@
-replace resume with my own cv
-<<<<<<< HEAD
-replace project links with projects i made 
-replace name of project with the projects i made 
-remove extra items using comments
-=======
-fix experience section - react is not in the same grid 
->>>>>>> ef87b1457b9ba60dfdccde5778abd40aee01ea03
-deploy after updating all the links and profile picture 
+1. change cv 
+2 in experience section react is out of order , update it
+3. update projects section
+4. update about section and replace lorem ipsum
+5. try to make all links as "target = '_blank'"
